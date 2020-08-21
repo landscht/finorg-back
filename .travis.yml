@@ -1,0 +1,12 @@
+language: java
+jdk:
+- oraclejdk14
+script:
+- "./mvnw test"
+cache:
+ directories:
+    - '$HOME/.m2/repository'
+deploy:
+  provider: heroku
+  app: projet-catho-back
+  api_key: $HEROKU_TOKEN
