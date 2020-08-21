@@ -8,5 +8,5 @@ cache:
     - '$HOME/.m2/repository'
 deploy:
   provider: heroku
-  app: projet-catho-back
+  app: finorg-back
   api_key: $HEROKU_TOKEN
