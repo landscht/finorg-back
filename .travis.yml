@@ -1,6 +1,6 @@
 language: java
 jdk:
-- oraclejdk14
+- oraclejdk11
 script:
 - "./mvnw test"
 cache:
