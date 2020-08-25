@@ -14,7 +14,7 @@ import javax.validation.Valid;
 import java.sql.Date;
 import java.time.LocalDate;
 
-@CrossOrigin(origins = "*", maxAge = 3600)
+@CrossOrigin
 @RestController
 @RequestMapping("/operation")
 public class OperationController {
